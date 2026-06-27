@@ -68,21 +68,6 @@ Target: overshoot < 72%, settling time < 0.25 s
 
 ---
 
-## File Structure
-
-```
-├── task1.m                          # Quarter-car step response simulation
-├── task4.m                          # Whole-axle road profile validation
-├── roadprofiletimeseries.m          # Converts road profile data to timeseries
-├── car_suspension_absolutedisplacements.slx   # Simulink model (Tasks 1-3)
-├── Whole_Axle_Suspension_Model.slx  # Simulink model (Task 4)
-├── roadProfile.mat                  # Raw road profile data (left & right)
-├── roadProfile_ts.mat               # Timeseries road profile data
-└── README.md
-```
-
----
-
 ## How to Run
 
 ### Prerequisites
@@ -117,4 +102,4 @@ run('task4.m')
 
 ## Author
 
-**Rotimi Dayo** #
+**Rotimi Dayo** 
